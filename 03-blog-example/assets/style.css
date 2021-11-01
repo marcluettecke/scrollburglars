@@ -116,7 +116,7 @@ a {
 
 .social-icons {
   width: 100px;
-  height: 0px;
+  height: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,12 +144,16 @@ a {
   .social-icons {
     display: none;
   }
+
+  main {
+    overflow: hidden;
+  }
 }
 
 .heading-decoration {
   position: absolute;
   top: -25px;
-  right: 0px;
+  right: 0;
   width: 75px;
   height: 75px;
   background: papayawhip;
